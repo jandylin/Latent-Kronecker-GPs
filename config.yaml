@@ -1,0 +1,27 @@
+seed: 2025
+dtype: float64
+device: cuda
+
+dataset_name: sarcos # sarcos, lcbench_..., ngcd_tg, ngcd_rr
+dataset_split: 0
+missing_ratio: 0.1
+standardize: True
+
+model_name: exact # exact, lkgp, svgp, vnngp, cagp
+learning_rate: 0.1
+n_epochs: 100
+
+svgp_n_inducing_points: 10000
+
+vnngp_k: 256
+vnngp_max_n_inducing_points: 500000
+
+cagp_projection_dim: 512
+
+batch_size: 1000 # for svgp, vnngp, cagp
+verbose_linalg: True
+
+wandb_logging: False
+wandb_project: null
+wandb_entity: null
+wandb_api_key: null

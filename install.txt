@@ -1,0 +1,4 @@
+conda install botorch -c pytorch -c gpytorch -c conda-forge
+conda install wandb -c conda-forge
+conda install hydra-core -c conda-forge
+conda install -c pytorch -c nvidia faiss-gpu
