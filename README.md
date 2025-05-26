@@ -13,7 +13,7 @@ To reproduce our experiments:
 The `data/` directory contains the datasets for our experiments:
 - `data/sarcos_inv.mat` contains the robotics data for our inverse dynamics prediction experiment, also available at https://gaussianprocess.org/gpml/data/
 - `data/LCBench/` contains all 35 individual learning curve datasets from LCBench, also available at https://github.com/automl/LCBench under the Apache-2.0 license
-- `data/NGCD_TG.npz` and `data/NGCD_RR.npz` contains the (preprocessed) temperature and precipitation data, respectively, from the [Climate Data Store](https://cds.climate.copernicus.eu/datasets/insitu-gridded-observations-nordic), available under the License to use Copernicus Products. The files contain modified Copernicus Atmosphere Monitoring Service information 2025, and neither the European Commission nor ECMWF is responsible for any use that may be made of the Copernicus information or data it contains.
+- `data/NGCD_TG.npz` and `data/NGCD_RR.npz` contains the (preprocessed) temperature and precipitation data, respectively, from the [Climate Data Store](https://cds.climate.copernicus.eu/datasets/insitu-gridded-observations-nordic), available under the License to Use Copernicus Products. The files contain modified Copernicus Atmosphere Monitoring Service information 2025, and neither the European Commission nor ECMWF is responsible for any use that may be made of the Copernicus information or data it contains.
 
 ---
 
